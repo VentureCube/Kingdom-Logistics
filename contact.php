@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cargoInfo = htmlspecialchars($_POST['cargo_info']);
 
     // Prepare email details
-    $to = "cs@kingdomlogistics.me";
+    $to = "harishthirumal@gmail.com";
     $subject = "New Contact Form Submission - Kingdom Logistics";
     $message = "
         <html>
